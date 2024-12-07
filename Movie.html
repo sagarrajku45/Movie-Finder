@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies by Category</title>
+  <link rel="stylesheet" href="Movie.css">
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="Search for movies...">
+<button id="searchButton">Search</button>
+
+  <header>
+    <h1>Movies by Category</h1>
+  </header>
+  <main>
+    <section id="bollywood">
+      <h2>Bollywood Movies</h2>
+      <div class="movie-container" id="bollywoodMovies">
+        <div class="loading" id="loadingBollywood">Loading...</div>
+      </div>
+    </section>
+    <section id="hollywood">
+      <h2>Hollywood Movies</h2>
+      <div class="movie-container" id="hollywoodMovies">
+        <div class="loading" id="loadingHollywood">Loading...</div>
+      </div>
+    </section>
+  </main>
+  <script src="Movie.js"></script>
+</body>
+</html>
